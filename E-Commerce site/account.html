@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Products</title>
+</head>
+<body>
+    <section class="container2">
+    <div class="navbar1">
+        <div class="logo">
+            <img src="./images/logo1.png" alt="logo" width="125px">
+        </div>
+        <div class="links">
+            
+                <a href="./index.html">Home</a>     
+                <a href="./products.html">Products</a>
+                <a href="">About</a>
+                <a href="">Contacts</a>
+                <a href="./account.html">Account</a>
+                <a href="./cart.html"><img src="./images/bag.png" alt=""></a>            
+        </div>
+    </div>
+
+    <br><br>
+</div>
+<br>
+
+<!-- Accounts -->
+<div class="accounts">
+    <div class="row">
+        <div class="col">
+            <div class="forms">
+                <div class="form-btn">
+                    <span onclick="login()">Login</span>
+                    <span onclick="register()">Register</span>
+                    <hr id="indicator">
+                </div>
+
+                <!-- login form -->
+                <form action="" id="login-form">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">                    <button type="submit" class="btn">Login</button>
+                    <a href="">Forgot password?</a>
+                </form>
+                
+                <!-- registration form -->
+                <form action="" id="reg-form">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email"> 
+                    <input type="password" placeholder="Password">
+                    <button type="submit" class="btn">Register</button>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="row">
+        <div class="foot col">
+            <h3>Download our app</h3>
+            <p>Available for android and ios</p>
+            <div class="stores">
+                <img style="height: 50px;
+    width: 120px;padding: 5px; border-radius: 20px;" src="./images/iosstore.PNG" alt="">
+                <img style="height: 50px;
+    width: 120px;padding: 5px; border-radius: 20px;" src="./images/androidstore.PNG" alt="">
+            </div>
+        </div>
+        <div class="foot col">
+            <img src="./images/logo1.png" alt="">
+            <p>Assures to provide you with the finest of <br> products and sate your expectations.</p>
+        </div>
+        <div class="foot col">
+            <h3>Useful links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog posts</li>
+                <li>Return policy</li>
+            </ul>
+        </div>
+        <div class="foot col">
+            <h3>Follow us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Youtube</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="cr">Copyrights 2022- Upbeat</p>
+</div>
+
+<!-- js for movement -->
+
+<script>
+   var log=document.getElementById('login-form') 
+   var reg=document.getElementById('reg-form')
+   var ind=document.getElementById('indicator')
+
+   function register(){
+    reg.style.transform="translateX(0px)"
+    log.style.transform="translateX(0px)"
+    ind.style.transform="translateX(90px)"
+   
+   }
+     function login(){
+    reg.style.transform="translateX(300px)"
+    log.style.transform="translateX(300px)"
+    ind.style.transform="translateX(5px)"
+
+    
+   }
+
+
+</script>
+
+</body>
+</html>

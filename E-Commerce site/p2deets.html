@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Products</title>
+</head>
+<body>
+    <section class="container1">
+    <div class="navbar1">
+        <div class="logo">
+            <img src="./images/logoo-removebg-preview (2).png" alt="logo" width="125px">
+        </div>
+        <div class="links">
+            
+                 <a href="./index.html">Home</a>     
+                <a href="./products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contacts</a>
+                <a href="./account.html">Account</a>
+                <a href="cart.html"><img src="./images/bag.png" alt=""> </a>           
+        </div>
+    </div>
+</section>
+    <br><br>
+</div>
+<br>
+
+<!-- prod deets -->
+<div class="single">
+    <div class="row">
+        <div class="col">
+            <img id="prod-img" src="./images/featuredprod4.PNG" alt=""><br><br>
+            <div class="poses">
+                <img class="smallimg" src="./images/prod.jpg" alt="">
+                <img class="smallimg" src="./images/prod2.jpg" alt="">
+                <img class="smallimg" src="./images/latprod2.jpg" alt="">
+                <img class="smallimg" src="./images/featuredprod4.PNG" alt="">
+
+            </div>
+        </div>
+        <div class="col">
+            <p>Hoody/casual</p>
+            <h1 id="Cloth">Classy Red Hoody</h1>
+            <h3 id="rate">$50</h3>
+            <select name="size" id="size">
+                <option value="">Select size</option>
+                <option value="">XL</option>
+                <option value="">Large</option>
+                <option value="">Medium</option>
+                <option value="">Small</option>
+
+            </select> <br>
+            <input type="number" id='quantity' value="1"> <br><br>
+            <button  id='test' onclick="adder()" class="btn" style="background-color: #fd523b; border-color: transparent;">Buy Now</button>  <br><br>
+
+            <h2>Product details  <i style="color: black;" class="fa fa-indent"></i></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, est quibusdam! <br> Minima officia porro laborum sint fugiat voluptatibus laboriosam quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus?</p>
+
+
+        </div>
+    </div>
+</div>
+<br>
+
+
+
+<!-- products -->
+<div class="products">
+    <h1 class="title">Other products you might be interested in</h1>
+    <div class="row">
+        <div class="col-prod">
+            <img src="./images/featuredprod1.PNG" alt="">
+            <h4>Slim-fit red hoody</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>$50</p>
+
+        </div>
+         <div class="col-prod">
+            <img src="./images/featuredprod4.PNG" alt="">
+            <h4>Knee length attire</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                
+            </div>
+            <p>$55</p>
+
+        </div>
+         <div class="col-prod">
+            <img src="./images/featuredprod2.PNG" alt="">
+            <h4>Running shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>$70</p>
+
+        </div>
+         <div class="col-prod">
+            <img  src="./images/featuredprod3.PNG" alt="">
+            <h4>Cargo pants</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <p>$65</p>
+
+        </div>
+    </div> <br><br>
+    <div class="sol">
+    <a href="products.html" class="btn">View more &#8594</a>
+</div></div>
+<br>
+
+
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="row">
+        <div class="foot col">
+            <h3>Download our app</h3>
+            <p>Available for android and ios</p>
+            <div class="stores">
+                <img style="height: 50px;
+    width: 120px;padding: 5px; border-radius: 20px;" src="./images/iosstore.PNG" alt="">
+                <img style="height: 50px;
+    width: 120px;padding: 5px; border-radius: 20px;" src="./images/androidstore.PNG" alt="">
+            </div>
+        </div>
+        <div class="foot col">
+            <img src="./images/logo.jpg" alt="">
+            <p>Assures to provide you with the finest of <br> products and sate your expectations.</p>
+        </div>
+        <div class="foot col">
+            <h3>Useful links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog posts</li>
+                <li>Return policy</li>
+            </ul>
+        </div>
+        <div class="foot col">
+            <h3>Follow us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Youtube</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="cr">Copyrights 2022- Upbeat</p>
+</div>
+
+<script>
+    var prodimg=document.getElementById('prod-img');
+    var smallimages=document.getElementsByClassName('smallimg');
+    
+    // This selects the first,second,third n fourth image w the classname smallimg
+    smallimages[0].onclick=function(){
+        prodimg.src=smallimages[0].src;
+    }
+     smallimages[1].onclick=function(){
+        prodimg.src=smallimages[1].src;
+    }
+     smallimages[2].onclick=function(){
+        prodimg.src=smallimages[2].src;
+    }
+     smallimages[3].onclick=function(){
+        prodimg.src=smallimages[3].src;
+    }
+
+</script>
+
+<!-- <script>
+    function adder(){
+        var imgsource=document.getElementById('prod-img').src;
+        var rate=document.getElementById('rate').textContent;
+        var size=document.getElementById('size').value;
+        var quantity=document.getElementById('quantity').value;
+        var row=document.createElement('div')
+        var col=document.createElement('div')
+        row.appendChild(col);
+
+    }
+</script> -->
+
+</body>
+</html>

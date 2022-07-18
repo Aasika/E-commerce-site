@@ -1,0 +1,10 @@
+filter: grayscale(100%)
+turns the image to gray 
+number Value in input, starts from that val
+
+img,img:hover. for input, input,input:focus
+
+border collapse defines if cells in table share same border or 
+take up diff borders.
+
+fontweight:normal changes bold to normal
